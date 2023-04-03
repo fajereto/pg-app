@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: pg-app                        # set this to your Amazon ECR repository name
   ECS_SERVICE: pg-app-svc                       # set this to your Amazon ECS service name
   ECS_CLUSTER: pg-app                           # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: .aws/pg-app.td.json      # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: .aws/pg-app-td.json      # set this to the path to your Amazon ECS task definition
                                                 # file, e.g. .aws/pg-app-td.json
   CONTAINER_NAME: pg-app                        # set this to the name of the container in the
                                                 # containerDefinitions section of your task definition
